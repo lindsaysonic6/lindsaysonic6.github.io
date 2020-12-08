@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Lindsay Rogers </title>
+        <meta name="description" content="Lindsay Rogers' Personal Website.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="AAstyle.css">
+    </head>
+    
+    <body> 
+    <div class="grid"> 
+        <div class="header"> <p class="nameHeader"> Lindsay Rogers</p> </div>
+        
+        <div class="navigationBar"> 
+            <nav role="navigation" aria-label="main menu"> 
+                <ul class="navBar">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li class="active"> <a href="Art%20Aspirations.html"> Art Aspirations </a></li>
+                    <li> <a href="scpc.html"> SCPC </a></li>
+                    <li> <a href="Engineering.html"> Engineering </a></li>
+                    <li> <a href="Contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="descriptionAA">
+            <h1 class="h1"> My Passion for Creativity </h1>
+            <div class="para"> 
+                <br>
+                <p>As I mentioned, I’m a stickler for pushing self-expression through art and creativity. Without a vision, projects lose site of their purpose and lose cohesion. They become distant from you and what you truly want to accomplish. </p>
+                
+                <p> As such, for my creative projects, I always aim to write or draw about topics that interest and tickle my creative bone. I’m currently part of one of Georgia Tech’s Vertically Integrated Programs (VIPs) called STEMcomm. In this VIP, we focus on bringing back students love for science through niche weird or fun topics on our own online magazine called Charged Magazine. I’ve written articles and created art on different topics such as the Physics Behind Sonic the Hedgehog, Rosemary Kennedy and the Science of Lobotomy, Heart in a Box transplants, and what Netflix Binge-Watching does to your brain.</p>
+                
+                <p> Recently, I was part of a pandemic-themed Zine, called Quarazine. Our Zine focused on how life had changed due to the current pandemic, and my group in particular decided to focus on the restrictions of travel/vacation, but in a lighthearted manner with Disney princesses showing what they do for fun during quarantine. I provided all the princess sketches (you can see one of them, Merida, below)! </p>
+                
+                <br>
+                
+                <p> <b>Fun fact:</b> My love for art all started when I played my first Sonic the Hedgehog game. Never before had I ever wanted to learn to draw a character as badly as I had with that blue little hedgehog. Granted I was 8 at the time and my art was eehhh not the best, but Sonic inspired me to keep trying until I could draw him from memory and with my eyes closed.</p>
+            </div>
+        </div>
+        <div class="sidePic">
+            <a href="http://chargedmagazine.org/author/lrogers49/">
+            <img id="Sonic" src="img/SonicPainting.jpg" alt="Me next to my Sonic mural" width="400" height="650">
+            </a>
+        </div>
+        
+        <div class="bottomPic1">
+            <img class="merida" src="img/Merida.jpg" alt="Disney Princess Merida's brothers attack!" width="500" height="400">
+        </div>
+        
+        <div class="bottomPic2"> 
+            <img class="paintShoe" src="img/paint%20shoe.PNG" alt="Oil Painting of stylized tennis shoe" width="550" height="400">
+        </div>
+        
+        <div class="bottomPic3">
+            <img class="aframe" src="img/aframe.JPG" alt="Portrait sketch of the YouTuber Cr1tikal" width="350" height="400">
+        </div>
+    </div>    
+    </body>
+    
+    <script>
+        const pictureLink = document.getElementById("Sonic");
+        pictureLink.addEventListener('mouseover', () => {
+            pictureLink.style.border = 'medium solid purple';
+        });
+        pictureLink.addEventListener('mouseout', () => {
+            pictureLink.style.border = '0'
+        });
+    </script>
+
+</html>

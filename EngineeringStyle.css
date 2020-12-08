@@ -1,0 +1,118 @@
+.grid {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 355px 50px 1fr 550px 400px;
+    background-color: #FFF7FF;
+    
+    grid-template-areas: 
+        "header header"
+        "navigationBar navigationBar"
+        "EnginInfo engPic1"
+        "EnginInfo engPic2"
+        "bottomPic bottomPic";
+}
+
+.header {
+    grid-area: header;
+    background-image: url(img/watercolor%20background-min.JPG);
+    background-size: cover;
+    background-blend-mode: darken;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+.nameHeader {
+    position: relative; left:420px; top:15px;
+    color: #2F4F4F;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 110px;
+    
+}
+
+.navigationBar {
+    grid-area: navigationBar;
+    background-color: #b57ae6;
+    border:2px solid #a655c1;  
+}
+
+.navBar {
+    list-style: none;
+    float: center;
+    
+}
+
+.navBar li {
+    display: inline-block;
+}
+
+.navBar li a {
+    padding: 9px 101px;
+    font-family: "Lucida Console", Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.navBar li.active a {
+    border: 2px solid white;
+}
+
+.navBar li a:hover {
+    border: 0.25px solid white;
+}
+
+.h1 {
+    position: relative;left: 20px; top: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    color:#2F4F4F;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.EnginInfo {
+    grid-area: EnginInfo;
+}
+
+.engPic1 {
+    grid-area: engPic1;
+}
+
+.engPic2 {
+    grid-area: engPic2;
+}
+
+.bottomImage {
+    grid-area: bottomPic;
+}
+
+#device {
+    position: relative; left: 138px;
+    border-radius: 40px;
+}
+
+.kneedrawing {
+    position: relative; left: 110px; top: 20px;
+    border-radius: 40px;
+}
+.nasalCannula {
+    position: relative; left: 200px; bottom: 10px;
+    border-radius: 40px;
+}
+.para {
+    font-family: 'Lato', sans-serif;
+    color:#2F4F4F;
+    font-size: 20px;
+    position: relative; left: 10px;
+    padding-left: 40px;
+}
+
+.BMED2250 {
+    list-style-type: square;
+    margin: 0 0 3px 0;
+}
+
+.BMED2310 {
+    list-style-type: square;
+    margin: 0 0 3px 0;
+}

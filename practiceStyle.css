@@ -1,0 +1,92 @@
+.grid {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr;
+    background-color: #FFF7FF;
+}
+
+.
+.header {
+    grid-area: header;
+    background-image: url(img/watercolor%20background-min.JPG);
+    background-size: cover;
+    background-blend-mode: darken;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+.nameHeader {
+    position: relative; left:420px; top:15px;
+    color: #2F4F4F;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 110px;
+    
+}
+
+.navigationBar {
+    grid-area: navigationBar;
+    background-color: #b57ae6;
+    border:2px solid #a655c1;
+    display: flex; 
+}
+
+.navBar {
+    list-style: none;
+    float: center;
+}
+
+.navBar li {
+    display: inline-block;
+}
+
+.navBar li a {
+    padding: 9px 101px;
+    font-family: "Lucida Console", Courier, monospace;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.navBar li.active a {
+    border: 2px solid white;
+}
+
+.navBar li a:hover {
+    border: 0.25px solid white;
+}
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboutMe {
+    grid-area: aboutMe;
+}
+
+.pictureMe {
+    grid-area: pictureMe;
+}
+
+.h1 {
+    position: relative;left: 20px; top: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "Lucida Console", Courier;
+    color:#2F4F4F;
+    
+}
+.myPhoto {
+    background-image: url(img/Lindsay%20Picture.jpeg);
+    background-size: contain;
+    float: right;
+    padding:1px;
+    border:1px solid #2F4F4F;
+    border-radius: 40px;
+}
+
+.para {
+    font-family: "Lucida Console", Courier;
+    color:#2F4F4F;
+    font-size: 20px;
+    position: relative; left: 10px;
+    padding-left: 40px;
+}

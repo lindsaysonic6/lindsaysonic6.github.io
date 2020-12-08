@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Lindsay Rogers </title>
+        <meta name="description" content="Lindsay Rogers' Personal Website.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="SCPCstyle.css">
+    </head>
+    
+    <body> 
+    <div class="grid"> 
+        <div class="header"> 
+            <p class="nameHeader"> Lindsay Rogers</p>
+        </div>
+        
+        <div class="navigationBar"> 
+            <nav role="navigation" aria-label="main menu"> 
+                <ul class="navBar">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="Art%20Aspirations.html"> Art Aspirations </a></li>
+                    <li class="active"> <a href="scpc.html"> SCPC </a></li>
+                    <li> <a href="Engineering.html"> Engineering </a></li>
+                    <li> <a href="Contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="SCPC">
+            <h1 class="h1"> Bringing Art Back to Tech </h1>
+            
+            <div class="para">
+                <br>
+                <p> I’ve been part of the Student Center Programs Council (SCPC) for three years now, and its integrated into my life in more ways than one. To quickly sum up our organization, SCPC consists of 9 committees that each have their own theme and host events related to that theme for the greater GT community. I’m one of the committee chairs for SCPC, and as you’ve probably guessed by now, I’m the chair of the Arts and Culture committee. We host events such as Artlanta (introducing students to the art and culture that makes up Atlanta) and Coffeehouse Poets (promoting free expression through slam poetry performances). Below you can check out an image of our Artlanta marketing and a snapshot of Coffeehouse Poets! </p>
+                
+                <p>Besides getting to meet some of my best friends and getting recognized by GT President Cabrera himself, SCPC has honed my leadership skills over the last few years. I’ve developed analytical risk and time management skills under tight monthly deadlines and budgets, fostered positive interpersonal relationships with my committee members and outside professional entities, and learned how to make decisions under high pressure situations when managing our events and guest experience. </p>
+                
+            </div>
+        </div>
+        
+        <div class="boardPic"> 
+            <a href="https://www.facebook.com/GTSCPC">
+            <img id="board" src="img/Board.jpg" alt="The Student Center Programs Council Board for 2020" width="600" height="700">
+            </a>
+        </div>
+        
+        <div class="Artlanta">
+            <img class="artlanta" src="img/Artlanta_Poster.jpg" alt="Marketing for our Event Artlanta" width="500" height="600">
+        </div>
+        
+        <div class="CoffeeHouse">
+            <img class="coffee" src="img/CP.JPG" alt="MC for our event CoffeeHouse Poets starting us off" width="850" height="600">
+        </div>
+       
+    </div>    
+    </body>
+
+
+    <script>
+        const pictureLink = document.getElementById("board");
+        pictureLink.addEventListener('mouseover', () => {
+            pictureLink.style.border = 'medium solid purple';
+        });
+        pictureLink.addEventListener('mouseout', () => {
+            pictureLink.style.border = '0'
+        });
+        
+    </script>
+</html>

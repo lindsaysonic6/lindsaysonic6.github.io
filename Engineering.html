@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Lindsay Rogers </title>
+        <meta name="description" content="Lindsay Rogers' Personal Website.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="EngineeringStyle.css">
+    </head>
+    
+    <body> 
+    <div class="grid"> 
+        <div class="header"> <p class="nameHeader"> Lindsay Rogers </p> </div>
+        
+        <div class="navigationBar"> 
+            <nav role="navigation" aria-label="main menu"> 
+                <ul class="navBar">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="Art%20Aspirations.html"> Art Aspirations </a></li>
+                    <li> <a href="scpc.html"> SCPC </a></li>
+                    <li class="active"> <a href="Engineering.html"> Engineering </a></li>
+                    <li> <a href="Contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="EnginInfo">
+            <h1 class="h1"> Yep, I Was Once an Engineer </h1>
+            
+            <div class="para">
+                <br>
+                <p>Or an engineering major to be exact. For the first two years of my college experience, I was a Biomedical Engineering (BME) major at Georgia Tech. While I admire the craft, engineering just was not for me. During our projects, I always found myself drifting towards the design and writing portions over the math and hard science portions. I love the creativity of brainstorming and sketching solutions, so eventually I came to the decision to follow what I love and packed up bags and moved over to Computational Media. However, I still learned a plethora of valuable skills during my time in BMED.</p>
+                <br>
+                <p> Here’s a quick rundown:</p>
+                <br>
+                <h3> <strong>BMED 2310: </strong> Redesigning Nasal Cannulas to Improve Patient Experience</h3>
+                <ul class="BMED2310">
+                    <li> Proficient understanding of product design including researching a physiological problem and competitor devices on the market, interviewing users to find and prioritize their needs, modelling the device through SolidWorks, and building and testing prototypes under FDA regulations</li>
+                    <br>
+                    <li> Basic comprehension of the physiological impact of Chronic Obstructive Pulmonary Disease on the respiratory system and the mechanics of the oxygen therapy used to treat it</li>
+                </ul>
+                <br>
+                <h3> <strong>BMED 2250: </strong>Repurposing a Flex Sensor to Characterize Knee Osteoarthritis Through Knee Flexion Angles </h3>
+                <ul class="BMED2250">
+                    <li> Proficient understanding of the process behind identifying key physiological needs, mathematically modelling tendons as springs, hardwiring a device, and preparing a testing protocol to measure the specificity, sensitivity, and p-values of related variables using ANOVA and MATLAB</li>
+                    <br>
+                    <li> Basic comprehension of knee kinematics and osteoarthritis’ effects on the pathology of the knee and overall gait</li>
+                    <br>
+                    <li> Ability to develop psychological safety and effective communication with team to increase team productivity</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="engPic1"> 
+            <a href="https://docs.google.com/document/d/1vSEpNOTnMsOxBKa9moPnzskLDr06OmINHsAlw96yfhQ/edit?usp=sharing">
+            <img id="device" src="img/BMED.jpg" alt="Device measuring knee flexion angle through strain" width="600" height="700">
+            </a>
+        </div>
+        
+        <div class="engPic2">
+            <img class="kneedrawing" src="img/Knee%20Final.jpg" alt="concept design to measure knee abduction" width="630" height="500">   
+        </div>
+        
+        <div class="bottomImage">
+            <img class="nasalCannula" src="img/prong%20pic.PNG" alt="redesigned nasal cannula for maximum patient comfort" width="1100" height="400">
+        </div>
+    
+    </div>
+    <script>
+        const pictureLink = document.getElementById("device");
+        pictureLink.addEventListener('mouseover', () => {
+            pictureLink.style.border = 'medium solid purple';
+        });
+        pictureLink.addEventListener('mouseout', () => {
+            pictureLink.style.border = '0'
+        });
+        
+    </script>
+    </body>
+
+</html>

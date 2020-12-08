@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Lindsay Rogers </title>
+        <meta name="description" content="Lindsay Rogers' Personal Website.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contactStyle.css">
+    </head>
+    
+    <body> 
+    <div class="grid"> 
+        <div class="header"> <p class="nameHeader"> Lindsay Rogers</p> </div>
+        
+        <div class="navigationBar"> 
+            <nav role="navigation" aria-label="main menu"> 
+                <ul class="navBar">
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="Art%20Aspirations.html"> Art Aspirations </a></li>
+                    <li> <a href="scpc.html"> SCPC </a></li>
+                    <li> <a href="Engineering.html"> Engineering </a></li>
+                    <li class="active"> <a href="Contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="contactInfo">
+            <h1 class="h1"> Where to Reach Me </h1>
+            <div class="para">
+            <br>
+                <p>Feel free to connect with me at any of these places if there is a project or business endeavor you need help working on!</p>
+                <ul>
+                    <li> <b> Personal Email:</b> lrogers49@gatech.edu</li>
+                    <br>
+                    <li> <b>Instagram Handle:</b> lindsayrogers208</li>
+                    <br>
+                    <li> <b>Phone:</b> 770-851-3895</li>
+                </ul>
+                <br>
+                <p> If you're interested in learning more about the Student Center Programs Council 
+                or you want to work with us in hosting an event for the Georgia Tech Student Body, please use either email below to contact me.</p>
+                <ul>
+                    <li> <b>SCPC Recruitment Email: </b> vp.recruitment@scpc.gatech.edu </li>
+                    <br>
+                    <li> <b> SCPC Arts and Culture Email:</b> arts@scpc.gatech.edu </li>
+                    <br>
+                    <li> <b> Instagram Handle: </b> gtscpc </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="myDrawing"> 
+            <a href="https://www.linkedin.com/in/lindsay-rogers49/">
+            <img id="drawing" src="img/Me_resized.JPG" alt="An ink sketch of myself" width="800" height="900">
+            </a>
+        </div>
+       
+    </div>    
+    </body>
+    <script>
+        const pictureLink = document.getElementById("drawing");
+        pictureLink.addEventListener('mouseover', () => {
+            pictureLink.style.border = 'medium solid purple';
+        });
+        pictureLink.addEventListener('mouseout', () => {
+            pictureLink.style.border = '0'
+        });
+        
+    </script>
+
+</html>
